@@ -6,7 +6,7 @@
     var $pixelsOffset = 225;
     var $currentLeftValue = 0;
     var $elementsCount = $elementsList.find('li').length;
-    var $minOffset = -(($elementsCount - 5) * $pixelsOffset);
+    var $minOffset = -(($elementsCount - 3) * $pixelsOffset);
     var $maxOffset = 0;
 
     $navButtons.each(function () {
